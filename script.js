@@ -1,7 +1,7 @@
 // URL da API pública de filmes (TMDB - The Movie Database)
 // Nota: Em um projeto real, seria necessário uma chave de API.
 // Usaremos um endpoint simples e público que não exige chave para este exemplo.
-const API_URL = 'https://api.themoviedb.org/3/movie/popular?api_key=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNWUwZGQ2MDhhYTU0ZDljYmExZWM4YWJjOWY0Y2YwZCIsIm5iZiI6MTc0NTgzNDY2My45MDYsInN1YiI6IjY4MGY1MmE3NDYwMzU3MWVhZDBmOGM2MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.-nX88RLTMySS2Tv1WZC5GWrYhPKkb_xgPPT0uE0nvu4&language=pt-BR'
+const API_URL = 'https://api.themoviedb.org/3/movie/popular?api_key=c5e0dd608aa54d9cba1ec8abc9f4cf0d&language=pt-BR'
 const BASE_IMG_URL = 'https://image.tmdb.org/t/p/w500'
 
 const containerFilmes = document.getElementById('container-filmes')
